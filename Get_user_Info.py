@@ -15,4 +15,4 @@ if __name__ == '__main__':
     access_token = auth(credentials) # Authenticate the API
     headers = headers(access_token) # Make the headers to attach to the API call.
     user_info = user_info(headers) # Get user info
-    print(user_info)
+    #print(user_info)
